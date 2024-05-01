@@ -4,19 +4,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página Principal</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../CSS/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
-    <nav>
-        <div class="nav-bar">
-            
+    <div class="header">
+        <div class="inner-header">
+            <div class="logo">
+                <img src="../images/Weather_logo.jpeg" alt="Not Available">
+            </div>
+            <div class="web-name">
+                <h1>Weather Now</h1>
+            </div>
+            <ul class="navigation">
+                <li>
+                    <a href="#">
+                        <span class="icon"></span>
+                        <span class="text">Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon"></span>
+                        <span class="text">Tiempo</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon"></span>
+                        <span class="text">Alertas</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon"></span>
+                        <span class="text">Suscripción</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon"></span>
+                        <span class="text">Saber más</span>
+                    </a>
+                </li>
+            </ul>
         </div>
-    </nav>
-    <main>
-        <div class="weather">
-            <h1>Tiempo</h1>
+        <div class="search-bar">
+            <div class="content">
+                <div class="search">
+                    <form action="">
+                        <input type="text" autocomplete="off">
+                        <button><i class="fa-solid fa-cloud-sun-rain"></i> Buscar</button>
+                    </form>
+                </div>
+                <div class="information">
+                    <span>Madrid</span>
+                    <span>19:30</span>
+                </div>  
+            </div>
         </div>
-    </main>
-    
+    </div>
+        
+    </div>
+    <script src="../JavaScript/app.js"></script>
 </body>
 </html>
