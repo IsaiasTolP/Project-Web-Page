@@ -200,10 +200,11 @@ main {
     border-radius: 15px 15px 0 0;
     color: black;
     font-size: 12px;
+    height: 30px;
     font-weight: 700;
     letter-spacing: .5px;
     margin-bottom: 1px;
-    padding: 10px 20px 12px;
+    padding: 10px 20px 10px;
     text-transform: uppercase;
     justify-content: space-between;
     align-items: center;
@@ -211,4 +212,21 @@ main {
 }
 .card-body {
     background-color: white;
+    border-radius: 0 0 15px 15px;
+    height: 100px;
+}
+.day-info,
+.night-info {
+    display: flex;
+    margin: 0 10px 10px 10px;
+    padding-top: 10px;
+}
+.day-info i,
+.night-info i {
+    margin-right: 8px;
+    color: blue;
+}
+.day-info p,
+.night-info p {
+    margin: 0;
 }
