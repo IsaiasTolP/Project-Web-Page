@@ -214,6 +214,7 @@ main {
     background-color: white;
     border-radius: 0 0 15px 15px;
     height: 100px;
+    align-content: center;
 }
 .day-info,
 .night-info {
