@@ -115,23 +115,20 @@ main {
     margin: 16px auto 24px;
 }
 .container {
-    border: 10px solid red;
-    background-color: whitesmoke;
+    background-color: transparent;
     display: grid;
-    grid-template-rows: repeat(4, 150px);
+    height: 622px;
+    grid-template-rows: 151px, 451px;
     grid-template-columns: 2.5fr 1fr;
     grid-column-gap: 2em;
-}
-.item{
-    border: 1px solid black;
+    grid-row-gap: 20px;
 }
 .weather {
-    grid-row: span 4;
+    grid-row: span 2;
     min-width: 400px;
     height: 100%;
     min-height: 300px;
     border-radius: 30px;
-    box-shadow: 0 30px 50px #5553;
     background-color: white;
     padding: 0 30px;
     box-sizing: border-box;
@@ -193,7 +190,7 @@ main {
     background-color: #48567b;
 }
 .todays-weather {
-    background-color: transparent;
+    max-height: 150px;
 }
 .card-header {
     background-color: white;
@@ -213,8 +210,10 @@ main {
 .card-body {
     background-color: white;
     border-radius: 0 0 15px 15px;
-    height: 100px;
     align-content: center;
+}
+.daily {
+    height: 100px;
 }
 .day-info,
 .night-info {
@@ -230,4 +229,10 @@ main {
 .day-info p,
 .night-info p {
     margin: 0;
+}
+.weekly-weather {
+    max-height: 451px;
+}
+.weekly {
+    height: 400px;
 }
