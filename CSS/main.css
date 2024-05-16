@@ -235,3 +235,13 @@ main {
 .weekly {
     height: 400px;
 }
+.weekly-list {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+.day-item { 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

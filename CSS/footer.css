@@ -1,6 +1,6 @@
 .bottom-container{
 	max-width: 1170px;
-	margin:auto;
+	margin: 0 auto;
 }
 .row{
 	display: flex;
@@ -11,11 +11,11 @@ ul{
 }
 .footer{
 	background-color: #fcfcfc;
-    padding: 70px 0;
+    padding: 20px 0;
 }
 .footer-col{
-   width: 25%;
-   padding: 0 15px;
+   width: 40%;
+   padding: 0 5%;
 }
 .footer-col h4{
 	font-size: 18px;
