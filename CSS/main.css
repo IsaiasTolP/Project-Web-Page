@@ -243,15 +243,20 @@ main {
 .weekly-list {
     display: flex;
     justify-content: space-between;
-    padding: 0 5%;
-    width: 100%;
+    margin: 0 5%;
+    width: 95%;
 }
 .day-item { 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 75px;
+    width: 90px;
+    border: black solid 1px;
+    border-radius: 15px;
+    padding: 10px;
+    gap: 5px;
 }
 .weekday-icon {
-    max-width: 50px;
+    width: 100%;
+
 }
