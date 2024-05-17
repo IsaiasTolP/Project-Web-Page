@@ -244,9 +244,14 @@ main {
     display: flex;
     justify-content: space-between;
     padding: 0 5%;
+    width: 100%;
 }
 .day-item { 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    width: 75px;
+}
+.weekday-icon {
+    max-width: 50px;
 }
