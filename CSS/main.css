@@ -229,6 +229,11 @@ main {
 .night-info p {
     margin: 0;
 }
+.todays-icon {
+    width: 20px;
+    height: 20px;
+    padding: 0 10px 0 5px;
+}
 .weekly-weather {
     max-height: 451px;
 }
