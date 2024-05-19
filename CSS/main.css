@@ -1,6 +1,6 @@
 main {
     width: 70%;
-    margin: 16px auto 24px;
+    margin: 16px auto 60px;
 }
 .container {
     background-color: transparent;
@@ -175,8 +175,61 @@ main {
     margin: 10px 0;
 
 }
-.fan-club-photos {
-    min-width: 100%;
-    height: 500px;
-    margin: 20px 0;
+.followers-pics {
+    box-sizing: border-box;
+    width: 80%;
+    min-height: 575px;
+    margin: 20px auto;
+}
+#slider-body {
+    padding: 2rem;
+}
+.slider-wrapper {
+    position: relative;
+    max-width: 48rem;
+    margin: auto;
+}
+.slider {
+    display: none;
+}
+.slider img {
+    vertical-align: middle;
+    max-width: 100%;
+    aspect-ratio: 16 / 9;
+}
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    font-weight: bold;
+    font-family: Verdana, sans-serif;
+    position: absolute;
+    bottom: 2rem;
+    width: 100%;
+    text-align: center;
+}
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.slider-nav {
+    display: flex;
+    justify-content: center;
+}
+.active, .dot:hover {
+    background-color: #717171;
+}
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
 }
