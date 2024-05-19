@@ -2,7 +2,7 @@
 let form = document.querySelector('form')
 form.addEventListener('submit', (event) => {
     alert('Todavía no se ha implementado esta función')
-})
+});
 
 // Este codigo devuelve la hora actual del equipo.
 function ActClock(){
@@ -17,9 +17,9 @@ function ActClock(){
     curr_time = hours+":"+minutes+":" +seconds
     clock = document.getElementById('clock')
     clock.innerHTML=curr_time;
-    setInterval("ActClock()",1000);
 }
-
+ActClock();
+setInterval("ActClock()",1000);
 // Este codigo escribe en todas las clases curr-date el día de la semana y el dia del mes.
 function GetDayName(dayIndex) {
     const days = ['Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado'];
