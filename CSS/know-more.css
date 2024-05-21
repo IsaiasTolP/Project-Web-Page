@@ -10,12 +10,19 @@ main {
 }
 h2 {
     padding: 20px 0;
-    margin: 0;
-    width: 100%;
+    margin: 0 auto;
+    width: 60%;
     display: flex;
     justify-content: center;
+    text-align: center;
+}
+h3 {
+    margin: 0 20px;
 }
 p {
-    margin: 0 20px;
+    margin: 0 30px;
     text-align: justify;
+}
+li {
+    list-style: disc;
 }
