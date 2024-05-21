@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../CSS/header.css">
+    <link rel="stylesheet" href="../CSS/subscription.css">
     <link rel="stylesheet" href="../CSS/footer.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
@@ -61,6 +62,27 @@
             </div>  
         </div>
     </search>
+    <main>
+        <h1>Suscríbete a nuestras noticias</h1>
+        <form class="newsletter-form" action="" method="post">
+            <div class="personal-data">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <label for="apellidos">Apellidos:</label>
+                <input type="text" id="apellidos" name="apellidos" required>
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+            </div>  
+            <div class="options">
+                <input type="checkbox" id="adverts" name="adverts" value="true">
+                <label for="newsletter">Recibir Publicidad</label>
+                <input type="checkbox" id="privacy" name="privacy" value="true">
+                <label for="newsletter">Acepta nuestra política de privacidad</label>
+                <input type="submit" value="Suscribirse">
+            </div>
+            
+        </form>
+    </main>
     <footer class="footer">
         <div class="bottom-container">
             <div class="row">

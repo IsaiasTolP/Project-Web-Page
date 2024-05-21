@@ -1,0 +1,40 @@
+main {
+    display: grid;
+    place-items: center;
+    height: 90vh;
+    color: #fff;
+    background: #212529;
+}
+
+.personal-data,
+.options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px;
+}
+.newsletter-form {
+    display: block;
+}
+
+.newsletter-form input {
+    padding: 10px 14px;
+    outline: none;
+    color: #e2e2e2;
+    background: #dedede29;
+    border: 1px solid #ffffff8f;
+    border-radius: 4px;
+}
+
+.newsletter-form button {
+    flex: 1 0 40px;
+    background: #0d6efd;
+    padding: 10px 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #e2e2e2;
+    outline: none;
+    border: 1px solid transparent;
+}
