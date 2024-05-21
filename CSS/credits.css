@@ -1,3 +1,6 @@
+main {
+    height: 80vh;
+}
 main a{
     display: block;
     font-size: 32px;
