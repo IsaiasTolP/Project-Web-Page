@@ -54,8 +54,8 @@ main {
     padding: 0;
 }
 .weather li {
-    background-color: #f78a55;
-    color: white;
+    background-color: whitesmoke;
+    color: black;
     border-radius: 10px;
     padding: 20px 10px;
     background-image: linear-gradient(
@@ -72,10 +72,10 @@ main {
     margin: 20px 0;
 }
 .weather li:nth-child(2) {
-    background-color: #b56291;
+    background-color: #9caacf;
 }
 .weather li:nth-child(3){
-    background-color: #48567b;
+    background-color: rgba(243, 52, 52, 0.89);
 }
 .todays-weather {
     max-height: 150px;
