@@ -37,17 +37,20 @@ day_elements.forEach(element => {
 }
 
 // Este codigo escribe el numero del día aumentandolo de a 1 cada vez que aparece.
-const today = new Date();
-let day_number = today.getDate();
-const day_elements = document.querySelectorAll('.day-of-week');
-day_elements.forEach(element => {
-    element.textContent = `Día ${day_number}`;
-    day_number += 1;
+function GetDaysOfTheWeek() {
+    const today = new Date();
+    let day_number = today.getDate();
+    const day_elements = document.querySelectorAll('.day-of-week');
+    day_elements.forEach(element => {
+        element.textContent = `Día ${day_number}`;
+        day_number += 1;
 
-    if (day_number > new Date(today.getFullYear(), today.getMonth() + 1, 0).getDate()) {
-        day_number = 1;
-    }
-});
+        if (day_number > new Date(today.getFullYear(), today.getMonth() + 1, 0).getDate()) {
+            day_number = 1;
+        }
+    });
+}
+
 
 // Este codigo controla los puntos del slider
 let slideIndex = 1;
