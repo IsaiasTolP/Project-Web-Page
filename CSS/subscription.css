@@ -1,7 +1,7 @@
 main {
     display: grid;
     place-items: center;
-    height: 90vh;
+    height: 80vh;
     color: #fff;
     background: #131212c2;
 }
@@ -37,4 +37,20 @@ main {
     color: #e2e2e2;
     outline: none;
     border: 1px solid transparent;
+}
+
+#newsletter-icon {
+    display: block;
+    width: 200px;
+    border-radius: 20px;
+    box-shadow: 0 0 0 0;
+    transition: transform 0.5s;
+}
+
+#newsletter-icon:hover {
+    display: block;
+    width: 200px;
+    transform: scale(1.5);
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 10px black;
 }
